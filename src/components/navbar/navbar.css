@@ -1,0 +1,134 @@
+.nav-bar {
+    position: relative;
+    background: #c74044;
+}
+
+@media (min-width: 992px) {
+.nav-bar {
+    padding: 0 75px;
+}
+}
+
+@media (min-width: 992px) {
+.nav-bar .navbar {
+    padding: 20px;
+} }
+
+.nav-bar .navbar {
+    height: 100%;
+    background: #c74044 !important;
+}
+
+@media (min-width: 992px) {
+.navbar-expand-lg {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.nav-bar .dropdown-menu {
+    margin-top: 0;
+    border: 0;
+    border-radius: 0;
+    background: #c74044;
+    /* color: #ffffff; */
+    overflow: hidden;
+}
+
+.dropdown-item {
+    color: #ffffff;
+    text-align: justify;
+    background-color: none !important;
+    border: 0;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    /* border-bottom: 2px solid #0062cc; */
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link.active {
+    color: #ffffff !important;
+    transition: none;
+}
+
+.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link.active {
+    padding: 10px 10px 8px 10px;
+    color: #ffffff;
+}
+
+@media (min-width: 992px) {
+.nav-bar a.nav-link {
+    padding: 8px 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+} }
+
+/* .nav-bar .btn {
+    color: black;
+    border: 1px solid #edede9;
+    background: #edede9;
+    border-radius: 5px;
+}
+
+.btn {
+    color: #ffffff;
+    border: 1px solid #03155d;
+    background: #03155d;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.btn {
+    transition: 0.3s;
+} */
+
+.nav-bar .btn {
+    color: black;
+    border: 1px solid #edede9;
+    background: #edede9;
+    border-radius: 5px;
+}
+
+.nav-bar .btn:hover {
+    color: blue;
+    border: 1px solid #edede9;
+    background: #edede9;
+    border-radius: 5px;
+}
+
+.mar {
+     margin-left: 510px;
+}

@@ -1,0 +1,11 @@
+export { default as About} from './aboutus/About.jsx';
+export { default as Client} from './client/Client.jsx';
+export { default as CurrentVacancy} from './currentvacancy/CurrentVacancy.jsx';
+export { default as Feature} from './feature/Feature.jsx';
+export { default as FeatureJob} from './featurejob/FeatureJob.jsx';
+export { default as Footer} from './footer/Footer.jsx';
+export { default as Header} from './header/Header.jsx';
+export { default as Mission} from './mission/Mission.jsx';
+export { default as Navbarr} from './navbar/Navbar.jsx';
+export { default as Slider} from './slider/Slider.jsx';
+export { default as Testimonial} from './testimonial/Testimonial.jsx';

@@ -1,0 +1,75 @@
+.top-bar {
+    position: relative;
+    height: 80px;
+    background: #ffffff;
+    margin-top: -5px;
+}
+.container {
+    width: 100%;
+    padding-right: 115px;
+    padding-left: 115px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.top-bar .logo {
+    padding: 15px 0;
+    text-align: left;
+    overflow: hidden;
+}
+
+@media (min-width: 992px) {
+.top-bar {
+    padding: 0 60px;
+}
+
+}
+
+.top-bar .top-bar-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+}
+
+.top-bar .top-bar-icon {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .fa-classic, .fa-regular, .fa-solid, .far, .fas {
+    font-family: "Font Awesome 6 Free";
+} */
+
+.top-bar .top-bar-icon .icons {
+    font-size: 40px;
+    font-weight: 900;
+    color: #C74044;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-id-card:before {
+    content: "\f2c2";
+}
+
+.top-bar .top-bar-text {
+    padding-left: 15px;
+}
+
+.top-bar .top-bar-text h3 {
+    margin: 0 0 5px 0;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.top-bar .top-bar-text p a {
+    margin: 0;
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+}
+

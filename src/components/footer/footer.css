@@ -1,0 +1,97 @@
+a {
+    text-decoration: none;
+    color: #000;
+    /* border-bottom: 2px solid #0062cc; */
+}
+.footer {
+    position: relative;
+    margin-top: 45px;
+    padding-top: 90px;
+    background: #c74044;
+    color: #ffffff;
+}
+.footer .footer-contact, .footer .footer-link, .footer .newsletter {
+    position: relative;
+    margin-bottom: 45px;
+}
+.footer h2 {
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footer h2::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+}
+.footer .footer-contact p i {
+    width: 25px;
+}
+
+.fa {
+    color: #fff;
+}
+.footer .footer-contact p i {
+    width: 25px;
+}
+.footer .footer-contact p .pr {
+    margin-right: 9px;
+}
+.footer .footer-social {
+    position: relative;
+    margin-top: 20px;
+}
+.footer .footer-social a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 7px 0;
+    text-align: center;
+    border: 1px solid rgba(256, 256, 256, 0.3);
+    border-radius: 60px;
+    transition: 0.3s;
+    background-color: #fff;
+    color: #000;
+    margin-left: 2px;
+}
+.footer .footer-social a:hover {
+     
+    background-color: #c74044;
+    /* color: #000; */
+}
+.footer .footer-social a i {
+    font-size: 15px;
+    color: #000;
+}
+.footer .footer-contact, .footer .footer-link, .footer .newsletter {
+    position: relative;
+    margin-bottom: 45px;
+}
+.footer .footer-link a {
+    display: block;
+    margin-bottom: 10px;
+    color: #ffffff;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.footer .footer-link a .arow {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+.footer .copyright p a {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}

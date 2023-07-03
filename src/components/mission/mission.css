@@ -1,0 +1,41 @@
+.mission-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    /* background-color: #03155D !important; */
+}
+.mission {
+    border: 1px solid #c74044;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 20px 20px 20px 20px;
+    background-color: #c74044 !important;
+}
+.mission a {
+    text-decoration: none;
+    color: #000;
+    /* border-bottom: 2px solid #0062cc; */
+}
+.mission-icon img {
+    color: #03155d !important;
+    width: 70px;
+    margin-left: 136px;
+    padding-top: 10px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.mission-title h3 {
+    color: #ffff !important;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 150px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.mission-dec p {
+    font-size: 15px;
+    color: #ffffff !important;
+    text-align: center;
+    margin-left: 10px;
+    padding-top: 10px;
+}
