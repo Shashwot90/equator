@@ -1,8 +1,15 @@
 import React from 'react'
-
+import { Header, Navbarr, Slider, OtherHeader} from '../../components';
+ 
+ 
 const JobSector = () => {
   return (
-    <div id='#features'>JobSector</div>
+    <>
+       <Header/>
+   <Navbarr />
+   <OtherHeader name="My name is "/>
+   <Slider />
+    </>
   )
 }
 

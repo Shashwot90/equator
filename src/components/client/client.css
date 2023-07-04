@@ -7,10 +7,10 @@
     color: #000;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 .container, .container-md, .container-sm {
     max-width: 720px;
-}}
+}}  
 @media (min-width: 576px) {
 .container, .container-sm {
     max-width: 540px;
@@ -22,14 +22,18 @@
 @media (min-width: 576px) {
 .container {
     max-width: 540px;
-}}
-.container {
+}} */
+.con {
+  background: #f8f8f8;
+}
+ /* .container {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-}
+     
+} */
 
 .no-js .owl-carousel, .owl-carousel.owl-loaded {
     display: block;
@@ -89,10 +93,10 @@
     color: #61dafb;
   }
   
-  h2{
+  /* h2{
     color: white;
     text-align: center;
-  }
+  } */
   
   .mainContainer{
     margin: 10px;

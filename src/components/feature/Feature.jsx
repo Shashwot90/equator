@@ -13,7 +13,7 @@ const Feature = () => {
             <div className="col-lg-4 col-md-12">
                 <div className="feature-item">
                     <div className="feature-icon">
-                        <GrUserWorker className="flaticon" color="white" />
+                        <GrUserWorker className="flaticonw" color="white" />
                         {/* <i className="flaticon-worker"></i> */}
                     </div>
                     <div className="feature-text">
@@ -28,6 +28,7 @@ const Feature = () => {
             <div className="col-lg-4 col-md-12">
                 <div className="feature-item">
                     <div className="feature-icon">
+                    <BsFillBuildingsFill className="flaticon" />
                         <i className="flaticon-building"></i>
                     </div>
                     <div className="feature-text">

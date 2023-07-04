@@ -9,3 +9,4 @@ export { default as Mission} from './mission/Mission.jsx';
 export { default as Navbarr} from './navbar/Navbar.jsx';
 export { default as Slider} from './slider/Slider.jsx';
 export { default as Testimonial} from './testimonial/Testimonial.jsx';
+export { default as OtherHeader } from './otherheader/OtherHeader.jsx';

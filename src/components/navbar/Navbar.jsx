@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-
+import { Link } from "react-router-dom";
 const Navbarr = () => {
   return (
     <>
@@ -18,7 +18,7 @@ const Navbarr = () => {
               id="navbarCollapse"
             >
               <div className="navbar-nav mr-auto">
-            <Nav.Link href="#home" className="navbar-brand">Home</Nav.Link>
+            <Nav.Link to="/" className="navbar-brand"><Link to="/">Home</Link></Nav.Link>
             <NavDropdown title="ABOUT" id="basic-nav-dropdown" className="navbar-nav mr-auto">
               <NavDropdown.Item href="#action/3.1">About Company</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -33,7 +33,7 @@ const Navbarr = () => {
                 Why Us?
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#features" className="navbar-nav mr-auto">JOB SECTORS</Nav.Link>
+            <Nav.Link to="/job-sector" className="navbar-nav mr-auto"><Link to="/job-sector">JOB SECTORS</Link></Nav.Link>
             <Nav.Link href="#pricing" className="navbar-nav mr-auto">DOCUMENTATION</Nav.Link>
             <Nav.Link href="#pricing" className="navbar-nav mr-auto">GALLERY</Nav.Link>
             <Nav.Link href="#pricing" className="navbar-nav mr-auto">CONTACT</Nav.Link>

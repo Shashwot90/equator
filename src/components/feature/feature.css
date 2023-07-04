@@ -5,6 +5,7 @@ a {
 } 
 .feature {
     position: relative;
+    background: #f8f8f8;
     /* margin-bottom: 45px; */
 }
 .wow {
@@ -52,12 +53,19 @@ a {
 .feature .feature-icon .flaticon {
     position: relative;
     margin: 0;
-    color: #ffffff;
+    color: #000;
     font-size: 60px;
     line-height: 60px;
     z-index: 3;
 }
-
+.feature .feature-icon .flaticonw {
+    position: relative;
+    margin: 0;
+    color: #fff;
+    font-size: 60px;
+    line-height: 60px;
+    z-index: 3;
+}
 .feature .feature-icon::after {
     position: absolute;
     content: "";

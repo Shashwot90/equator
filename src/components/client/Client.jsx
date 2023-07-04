@@ -24,7 +24,7 @@ const Client = () => {
   return (
     <>
       <div className="client py-3">
-        <div className="container">
+        <div className="container con">
           <h2 className="client-title text-center pb-4">Clients</h2>
           <div className="row">
             <div className="col-12">

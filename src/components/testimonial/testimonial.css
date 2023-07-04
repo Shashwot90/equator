@@ -115,9 +115,9 @@
 }
 
 
-body {
+/* body {
     background: #ccc;
-  }
+  } */
   .App {
     width: 85%;
     margin: 0 auto;
@@ -172,7 +172,7 @@ body {
   .category {
     position: relative;
   }
-  .category::before {
+  /* .category::before {
     content: '';
     background: rgb(255, 61, 61);
     position: absolute;
@@ -180,4 +180,4 @@ body {
     left: 0;
     right: 0;
     height: 2px;
-  }
+  } */
