@@ -1,0 +1,69 @@
+.normal-bg {
+    width: 100%;
+    height: 35vh;
+    position: relative;
+    background-image: url('http://equintl.demo.radiantnepal.com/website/img/service-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: border 0.3s ease-in, box-shadow 0.3s ease-in, background 0.3s, opacity 0.3s ease-in;
+    object-fit: cover;
+}
+.subheader:before {
+    content: "";
+    background-color: #14212b;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.subheader .subheader-content {
+    position: relative;
+    padding: 108px 0 50px;
+}
+.subheader .subheader-content .page-title {
+    font-size: 52px;
+    margin-bottom: 5px;
+    align-items: flex-start;
+    display: flex;
+}
+.subheader .subheader-content h1 {
+    
+    text-align: center;
+    line-height: 1.5em;
+}
+.subheader .subheader-content .breadcrumb {
+    background: transparent;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+ul.custom-flex {
+    float: right;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.subheader .subheader-content .breadcrumb li, .subheader .subheader-content .breadcrumb li a {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.subheader .subheader-content .breadcrumb li a {
+    padding-right: 15px;
+    margin-right: 15px;
+    position: relative;
+}
+.subheader .subheader-content .breadcrumb li a:after {
+    content: "";
+    height: 80%;
+    width: 1px;
+    background-color: #fff;
+    position: absolute;
+    top: 4px;
+    right: 0;
+}

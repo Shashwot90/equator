@@ -18,30 +18,30 @@ const Navbarr = () => {
               id="navbarCollapse"
             >
               <div className="navbar-nav mr-auto">
-            <Nav.Link to="/" className="navbar-brand"><Link to="/">Home</Link></Nav.Link>
+            <Nav.Link to="/" className="navbar-brand"><Link to="/" style={{ color: '#fff'}}>Home</Link></Nav.Link>
             <NavDropdown title="ABOUT" id="basic-nav-dropdown" className="navbar-nav mr-auto">
-              <NavDropdown.Item href="#action/3.1">About Company</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                About Nepal
+              <NavDropdown.Item href="#action/3.1"><Link to="/about-company" style={{ color: '#fff'}}>About Company</Link></NavDropdown.Item>
+              <NavDropdown.Item href="/about-nepal"><Link to="/about-nepal" style={{ color: '#fff'}}>
+                About Nepal</Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Recruitment Process</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3"><Link to="/recruitment" style={{ color: '#fff'}}>Recruitment Process</Link></NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Message From MD
+              <NavDropdown.Item href="#action/3.4"><Link to="/fromMD" style={{ color: '#fff'}}>
+                Message From MD</Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">
-                Why Us?
+              <NavDropdown.Item href="#action/3.4"><Link to="/why-us" style={{ color: '#fff'}}>
+                Why Us?</Link>
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link to="/job-sector" className="navbar-nav mr-auto"><Link to="/job-sector">JOB SECTORS</Link></Nav.Link>
-            <Nav.Link href="#pricing" className="navbar-nav mr-auto">DOCUMENTATION</Nav.Link>
-            <Nav.Link href="#pricing" className="navbar-nav mr-auto">GALLERY</Nav.Link>
-            <Nav.Link href="#pricing" className="navbar-nav mr-auto">CONTACT</Nav.Link>
+            <Nav.Link to="/job-sector" className="navbar-nav mr-auto"><Link to="/job-sector" style={{ color: '#fff'}}>JOB SECTORS</Link></Nav.Link>
+            <Nav.Link href="#pricing" className="navbar-nav mr-auto"><Link to="/documentation" style={{ color: '#fff'}}>DOCUMENTATION</Link></Nav.Link>
+            <Nav.Link href="#pricing" className="navbar-nav mr-auto"><Link to="/gallery1" style={{ color: '#fff'}}>GALLERY</Link></Nav.Link>
+            <Nav.Link href="#pricing" className="navbar-nav mr-auto"><Link to="/contact" style={{ color: '#fff'}}>CONTACT</Link></Nav.Link>
             </div>
             <div className="ml-auto mar">
                 <a
                   className="btn"
-                  href="http://equintl.demo.radiantnepal.com/jobapply"
+                  href="/apply"
                 >
                   Apply Now
                 </a>

@@ -1,4 +1,5 @@
 import React from 'react'
+import './otherheader.css';
 
 const OtherHeader = ({ name }) => {
   return (
@@ -13,7 +14,7 @@ const OtherHeader = ({ name }) => {
                         <h1 class="page-title text-white fw-600">Equator International</h1>
                         <ul class="custom-flex breadcrumb">
                             <li><a href="/">Home</a></li>
-                            <li>Why Us? {name} </li>
+                            <li>{name} </li>
                         </ul>
                     </div>
                 </div>

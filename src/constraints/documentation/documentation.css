@@ -1,0 +1,55 @@
+.recu-pro-area {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.service-title h1 {
+    margin-bottom: -56px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.5em;
+    padding-bottom: 45px;
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #111;
+    margin-left: 28%;
+}
+.service-title h1:before {
+    position: none;
+    left: 0;
+    bottom: 20px;
+    width: 60%;
+    left: 50%;
+    margin-left: -30%;
+    height: 1px;
+    content: "";
+    background-color: #03155d;
+    z-index: 4;
+}
+.service-title h1:after {
+    position: none;
+    width: 40px;
+    height: 40px;
+    left: 50%;
+    margin-left: -20px;
+    bottom: 0px;
+    content: "\00a7";
+    font-size: 0px;
+    line-height: 40px;
+    color: #ff9900;
+    font-weight: 400;
+    z-index: 5;
+    display: block;
+    background-color: #f8f8f8;
+}
+.recu-pro-content-area {
+    padding-top: 30px;
+}
+.recu-pro-content ul li {
+    font-size: 16px;
+    color: #000000;
+    list-style: decimal;
+    text-align: justify;
+}

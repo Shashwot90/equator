@@ -1,0 +1,126 @@
+.contact-area-page {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+}
+.service-title h1 {
+    margin-bottom: -56px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.5em;
+    padding-bottom: 45px;
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #111;
+    margin-left: 28%;
+}
+.service-title h1:before {
+    position: none;
+    left: 0;
+    bottom: 20px;
+    width: 60%;
+    left: 50%;
+    margin-left: -30%;
+    height: 1px;
+    content: "";
+    background-color: #03155d;
+    z-index: 4;
+}
+.service-title h1:after {
+    position: none;
+    width: 40px;
+    height: 40px;
+    left: 50%;
+    margin-left: -20px;
+    bottom: 0px;
+    content: "\00a7";
+    font-size: 0px;
+    line-height: 40px;
+    color: #ff9900;
+    font-weight: 400;
+    z-index: 5;
+    display: block;
+    background-color: #f8f8f8;
+}
+.form-area {
+    padding-top: 40px;
+    width: 100%;
+    padding: 65px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.contact-form input {
+    border: none;
+    border-bottom: 1px solid;
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+    padding: 5px;
+    margin-bottom: 20px;
+    box-shadow: none;
+    border-color: #ced4da !important;
+}
+/* .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+} */
+.form-area button {
+    background-color: #03155d;
+    border: none;
+    margin-top: 10px;
+}
+.btn {
+    color: #ffffff;
+    border: 1px solid #03155d;
+    background: #03155d;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.btn {
+    transition: 0.3s;
+}
+.form-text-area {
+    padding: 8vh;
+}
+.apply-area {
+    padding-top: 40px;
+    width: 100%;
+    padding: 100px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+    margin-top: 22px;
+    margin-bottom: 40px;
+}
+.apply-form input {
+    border: none;
+    border-bottom: 1px solid;
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+    padding: 5px;
+    margin-bottom: 20px;
+    box-shadow: none;
+    border-color: #ced4da !important;
+}
+.form-group label {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #525252;
+}

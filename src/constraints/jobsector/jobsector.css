@@ -1,0 +1,76 @@
+.job-sectors-area {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bg-items {
+    /* padding: 20px; */
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    background-color: white;
+    float: left;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 50%);
+}
+.items {
+    width: 100%;
+    height: 160px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+.items div {
+    position: absolute;
+}
+.job-sector-title p {
+    margin-left: 110px;
+    margin-top: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+.tl5 {
+    border-top: 190px solid #03155d !important;
+    border-right: 390px solid transparent;
+    top: -190px;
+    left: -390px;
+    transition: all 0.3s;
+    opacity: 1;
+}
+.br5 {
+    border-bottom: 190px solid #03155d !important;
+    border-left: 390px solid transparent;
+    bottom: -190px;
+    right: -390px;
+    transition: all 0.3s;
+    opacity: 1;
+}
+.details {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 163px;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    font-family: georgia;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+.details p {
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 20px;
+}
+.details h6 {
+    text-align: center;
+    color: #fff;
+}
+.image2 {
+    background-image: url('../../assets/1676546347_Security Guards.jpg');
+}

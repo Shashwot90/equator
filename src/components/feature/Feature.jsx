@@ -2,7 +2,7 @@ import React from 'react';
 import './feature.css';
 import { GrUserWorker } from 'react-icons/gr';
 import { BsFillBuildingsFill } from 'react-icons/bs';
-
+import { MdLocalLibrary } from 'react-icons/md';
 
 const Feature = () => {
   return (
@@ -29,7 +29,7 @@ const Feature = () => {
                 <div className="feature-item">
                     <div className="feature-icon">
                     <BsFillBuildingsFill className="flaticon" />
-                        <i className="flaticon-building"></i>
+                        {/* <i className="flaticon-building"></i> */}
                     </div>
                     <div className="feature-text">
                                                 <a href="/legal-documents">
@@ -42,7 +42,8 @@ const Feature = () => {
             <div className="col-lg-4 col-md-12">
                 <div className="feature-item">
                     <div className="feature-icon">
-                        <i className="flaticon-call"></i>
+                    <MdLocalLibrary className="flaticon" />
+                        {/* <i className="flaticon-call"></i> */}
                     </div>
                     <div className="feature-text">
                                                 <a href="feature/demand-letter">

@@ -63,24 +63,24 @@ const Footer = () => {
               <div className="footer-link">
                 <h2>JOB SECTORS</h2>
 
-                <a href="/cleaning"><BiSolidRightArrow className='arow' />Cleaning Section</a>
+                <a href="/job-sector"><BiSolidRightArrow className='arow' />Cleaning Section</a>
 
-                <a href="/cleaning-section"><BiSolidRightArrow className='arow' />Cleaning Section</a>
+                <a href="/job-sector"><BiSolidRightArrow className='arow' />Cleaning Section</a>
 
-                <a href="/office-staff"><BiSolidRightArrow className='arow' />Office Staff</a>
+                <a href="/job-sector"><BiSolidRightArrow className='arow' />Office Staff</a>
 
-                <a href="/tailoring-and-laundry-personnels"><BiSolidRightArrow className='arow' />
+                <a href="/job-sector"><BiSolidRightArrow className='arow' />
                   Garment / Tailoring and laundry Personnels
                 </a>
 
-                <a href="/medical-staffs"><BiSolidRightArrow className='arow' />Medical &amp; Health Personnels</a>
+                <a href="/job-sector"><BiSolidRightArrow className='arow' />Medical &amp; Health Personnels</a>
               </div>
             </div>
             <div className="col-md-6 col-lg-3">
               <div className="footer-link">
                 <h2>Useful Pages</h2>
-                <a href="/aboutus/about-one"><BiSolidRightArrow className='arow' />About Us</a>
-                <a href="/job-sectors"><BiSolidRightArrow className='arow' />Job Sectors</a>
+                <a href="/about-company"><BiSolidRightArrow className='arow' />About Us</a>
+                <a href="/job-sector"><BiSolidRightArrow className='arow' />Job Sectors</a>
                 <a href="/contact"><BiSolidRightArrow className='arow' />Contact</a>
                 <a href="/service"><BiSolidRightArrow className='arow' />Testimonial</a>
               </div>
